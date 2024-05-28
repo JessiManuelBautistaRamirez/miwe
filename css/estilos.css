@@ -1,0 +1,439 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F6F6F8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.contenido {
+    padding-top: 70px;
+}
+
+
+/* ----- ----- HABILIDADES ----- ----- */
+
+.servicios {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.servicios .card .sobreposicion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios img {
+    height: 280px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.educacion {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.educacion h5 {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.educacion p {
+    margin-bottom: 10px;
+}
+
+.educacion .certificaciones {
+    margin: auto;
+    overflow: hidden;
+}
+
+.educacion .card .sobreposicion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.educacion .btn {
+    padding: .1rem .2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.educacion h5,
+.educacion p,
+.educacion a {
+    text-align: center;
+}
+
+
+/* ----- ----- HEADER ----- ----- */
+
+header {
+    background: linear-gradient(to bottom, #1515f5, #3b6ef9);
+    background-repeat: no-repeat;
+    max-height: 600px;
+}
+
+header .menu {
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+header .menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 190px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+/* ----- ----- MAIN ----- ----- */
+
+.main .contenedor {
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto {
+    margin-top: -150px;
+}
+
+.main .acerca-de .foto .target {
+    padding: 40px;
+}
+
+.main .acerca-de .foto .target .card-body .titulo {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.main .acerca-de .foto .target .card-body .descripcion {
+    font-size: 17px;
+    line-height: 150%;
+    color: #6e7373;
+    text-align: justify;
+}
+
+.main .acerca-de .foto .redes-sociales {
+    background: #1e2b38;
+    padding: 10px 0;
+}
+
+.main .acerca-de .foto .redes-sociales a {
+    color: #000;
+    display: inline;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.main .acerca-de .texto {
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+.main .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: left;
+}
+
+.main .acerca-de .texto .bold {
+    color: #3895ea;
+    text-decoration: underline;
+}
+
+.main .contenedor .card {
+    box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main .trabajos {
+    padding: 60px 0;
+}
+
+.main .trabajos .contenedor {
+    overflow: hidden;
+}
+
+.main .trabajos .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .servicio .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.Proyectos .contenedor {
+    max-width: 100%;
+}
+
+.Proyectos .contenedor .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Proyectos .contenedor .card .btn {
+    margin-top: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.Proyectos .contenedor .card .btn {
+    font-size: 10px;
+}
+
+.main .Proyectos .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 34px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .Proyectos {
+    padding: 30px 0;
+}
+
+.Proyectos .card:hover {
+    transform: scale(1.01);
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.644);
+}
+
+#filters {
+    padding-bottom: 3%;
+    list-style: none;
+}
+
+#filters li {
+    float: left;
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+#filters li span.active {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0471DD;
+    color: #000;
+    border-radius: 10px;
+}
+
+#portfoliolist .portfolio {
+    width: 23%;
+    margin: 5%;
+    display: none;
+    float: left;
+    padding: 0px;
+}
+
+.Proyectos .card {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* #Tablet (Portrait) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 768px;
+    }
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    #portfoliolist .portfolio {
+        width: 95%;
+        margin: 1%;
+    }
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+/* ----- ----- CONTACTO ----- ----- */
+
+.contacto {
+    padding: 60px 0;
+}
+
+.contacto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    color: #323068;
+    text-align: center;
+}
+
+.contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario .boton {
+    margin: auto;
+    background: #593EFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+.contacto .formulario .boton:hover {
+    background: #387bea;
+}
+
+
+/* ----- ----- FOOTER ----- ----- */
+
+.footer {
+    margin-top: 0;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to top, #1b25e6, #2d48df);
+    color: #fff;
+}
+
+
